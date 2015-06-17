@@ -1,5 +1,5 @@
 # Aseprite DarkFlat Theme
-Aseprite is a open source pixel art tool. It allows you to create awesome pixel art and even animations easily. The given tools are especially made for pixel art. You can even create layers with transparency or export your animations as sprite sheets for game development.
+Aseprite is an open source pixel art tool. It allows you to create awesome pixel art and even animations easily. The given tools are especially made for pixel art. You can even create layers with transparency or export your animations as sprite sheets for game development.
 Download: http://aseprite.org
 
 ##Screenshot
@@ -18,7 +18,7 @@ Selected = DarkFlat
 ###Where is my skin folder?
 "C:\Program Files (x86)\Aseprite\data\skins"
 
-###Where is my aseprite config file?
+###Where is my Aseprite config file?
 Navigate to "Edit -> Preferences -> Load Configuration File"
 
 ##Back to default?
