@@ -4,7 +4,8 @@
       url="https://twitter.com/miichidk">
 
   <dimensions>
-  	<dim id="scrollbar_size" value="12" />
+    <dim id="scrollbar_size" value="12" />
+    <dim id="mini_scrollbar_size" value="6" />
     <dim id="tabs_width" value="80" />
     <dim id="tabs_height" value="17" />
     <dim id="tabs_bottom_height" value="5" />
@@ -16,6 +17,7 @@
     <dim id="timeline_tags_area_height" value="4" />
     <dim id="timeline_outline_width" value="2" />
     <dim id="palette_outline_width" value="3" />
+    <dim id="color_slider_height" value="14" />
   </dimensions>
 
   <colors>
@@ -210,8 +212,8 @@
     <part id="mini_slider_empty"                x="48" y="144" w1="5" w2="6" w3="5" h1="5" h2="5" h3="6" />
     <part id="mini_slider_full_focused"         x="32" y="160" w1="5" w2="6" w3="5" h1="5" h2="5" h3="6" />
     <part id="mini_slider_empty_focused"        x="48" y="160" w1="5" w2="6" w3="5" h1="5" h2="5" h3="6" />
-    <part id="mini_slider_thumb"                x="32" y="176" w="5" h="6" />
-    <part id="mini_slider_thumb_focused"        x="48" y="176" w="5" h="6" />
+    <part id="mini_slider_thumb"                x="32" y="176" w="5" h="4" />
+    <part id="mini_slider_thumb_focused"        x="48" y="176" w="5" h="4" />
     <part id="separator_horz"                   x="32" y="80" w="9" h="5" />
     <part id="separator_vert"                   x="32" y="96" w="5" h="9" />
     <part id="combobox_arrow_down"              x="100" y="148" w="9" h="9" />
@@ -260,6 +262,12 @@
     <part id="scrollbar_thumb"                  x="64" y="160" w1="5" w2="6" w3="5" h1="5" h2="6" h3="5" />
     <part id="mini_scrollbar_bg"                x="64" y="176" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />
     <part id="mini_scrollbar_thumb"             x="64" y="192" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />
+    <part id="mini_scrollbar_bg_hot"            x="64" y="184" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />     
+    <part id="mini_scrollbar_thumb_hot"         x="72" y="184" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />     
+    <part id="transparent_scrollbar_bg"         x="64" y="192" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />     
+    <part id="transparent_scrollbar_thumb"      x="72" y="192" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />     
+    <part id="transparent_scrollbar_bg_hot"     x="64" y="200" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />     
+    <part id="transparent_scrollbar_thumb_hot"  x="72" y="200" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />
     <part id="tooltip"                          x="112" y="64" w1="5" w2="6" w3="5" h1="5" h2="5" h3="6" />
     <part id="tooltip_arrow"                    x="128" y="64" w1="5" w2="6" w3="5" h1="5" h2="5" h3="6" />
     <part id="ani_first"                        x="144" y="192" w="5" h="5" />
@@ -274,13 +282,9 @@
     <part id="pal_options"                      x="168" y="200" w="5" h="5" />
     <part id="pal_resize"                       x="176" y="200" w="5" h="5" />
     <part id="target_one"                       x="144" y="224" w="32" h="16" />
-    <part id="target_one_selected"              x="144" y="240" w="32" h="16" />
     <part id="target_frames"                    x="176" y="224" w="32" h="16" />
-    <part id="target_frames_selected"           x="176" y="240" w="32" h="16" />
     <part id="target_layers"                    x="208" y="224" w="32" h="16" />
-    <part id="target_layers_selected"           x="208" y="240" w="32" h="16" />
     <part id="target_frames_layers"             x="240" y="224" w="32" h="16" />
-    <part id="target_frames_layers_selected"    x="240" y="240" w="32" h="16" />
     <part id="brush_circle"                     x="144" y="144" w="7" h="8" />
     <part id="brush_circle_selected"            x="144" y="152" w="7" h="8" />
     <part id="brush_square"                     x="160" y="144" w="7" h="8" />
@@ -399,6 +403,9 @@
     <part id="icon_white"                       x="64" y="256" w="16" h="16" />
     <part id="icon_transparent"                 x="80" y="256" w="16" h="16" />
     <part id="color_wheel_indicator"            x="48" y="192" w="4" h="4" />
+    <part id="no_symmetry"                      x="144" y="240" w="13" h="13" />        
+    <part id="horizontal_symmetry"              x="160" y="240" w="13" h="13" />        
+    <part id="vertical_symmetry"                x="176" y="240" w="13" h="13" />
   </parts>
 
   <stylesheet>
@@ -454,9 +461,29 @@
     <style id="mini_scrollbar">
       <background part="mini_scrollbar_bg" />
     </style>
+    <style id="mini_scrollbar:hover">       
+      <background part="mini_scrollbar_bg_hot" />       
+    </style>
     <style id="mini_scrollbar_thumb">
       <background part="mini_scrollbar_thumb" />
+    </style>        
+    <style id="mini_scrollbar_thumb:hover">     
+      <background part="mini_scrollbar_thumb_hot" />        
     </style>
+    
+    <!-- transparent_scrollbar -->      
+    <style id="transparent_scrollbar">      
+      <background part="transparent_scrollbar_bg" />        
+    </style>        
+    <style id="transparent_scrollbar:hover">        
+      <background part="transparent_scrollbar_bg_hot" />        
+    </style>        
+    <style id="transparent_scrollbar_thumb">        
+      <background part="transparent_scrollbar_thumb" />     
+    </style>        
+    <style id="transparent_scrollbar_thumb:hover">      
+      <background part="transparent_scrollbar_thumb_hot" />
+    </style>    
 
     <!-- timeline -->
     <style id="timeline">

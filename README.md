@@ -9,21 +9,7 @@ Download: http://aseprite.org
 Download here: https://github.com/michidk/Aseprite-DarkFlat-Theme/releases/latest
 Unrar the file and move it in your skins folder.
 
-Enable it by adding the following lines to your config file: 
-```
-[Skin]
-Selected = DarkFlat
-```
+Enable it at "Edit -> Preferences -> Theme"
 
 ###Where is my skin folder?
-"C:\Program Files (x86)\Aseprite\data\skins"
-
-###Where is my Aseprite config file?
-Navigate to "Edit -> Preferences -> Load Configuration File"
-
-##Back to default?
-Just remove the two lines, you added before, from your config file.
-
-##Troubleshooting
-With every big update, all themes brake and need to be updated.
-Look at the description of the version you downloaded (here: https://github.com/michidk/Aseprite-DarkFlat-Theme/releases/latest) and check if the theme is up-to-date with your Aseprite version.
+Press "Open Folder" at "Edit -> Preferences -> Theme"
