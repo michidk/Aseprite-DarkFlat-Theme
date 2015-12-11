@@ -7,7 +7,7 @@ Download: http://aseprite.org
 
 ##Installation
 Download here: https://github.com/michidk/Aseprite-DarkFlat-Theme/releases/latest
-Unrar the file and move it in your skins folder.
+Unzip the file and move it in your skins folder.
 
 Enable it at "Edit -> Preferences -> Theme"
 
