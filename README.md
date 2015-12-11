@@ -6,8 +6,8 @@ Download: http://aseprite.org
 ![](https://www.michidk.cat/wp-content/uploads/2015/06/WkKTqXo.png "Aseprite DarkFlat Theme")
 
 ##Installation
-Download here: https://github.com/michidk/Aseprite-DarkFlat-Theme/releases/latest
-Unzip the file and move it in your skins folder.
+Download the "Source code" here: https://github.com/michidk/Aseprite-DarkFlat-Theme/releases/latest
+Unzip the file and move it to your skins folder.
 
 Enable it at "Edit -> Preferences -> Theme"
 
