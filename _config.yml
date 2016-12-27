@@ -1,0 +1,8 @@
+title: Aseprite Darkflat Theme
+description: a dark flat theme for the pixelart editor Aseprite
+google_analytics: UA-63472612-4
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
