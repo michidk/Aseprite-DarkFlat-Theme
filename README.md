@@ -2,8 +2,6 @@
 Aseprite is an open source pixel art tool. It allows you to create awesome pixel art and even animations easily. The given tools are especially made for pixel art. You can even create layers with transparency or export your animations as sprite sheets for game development.
 [For more info, checkout aseprite.org!](http://aseprite.org)
 
-This theme is a redesign of the default theme by Ilija Melentijevic & David Capello. It has a dark, profesional look as well as cleaner icons and edges.
-
 ## Screenshots
 ![Aseprite DarkFlat Theme Screenshot 1](Screenshot01.png "Screenshot 1")
 ![Aseprite DarkFlat Theme Screenshot 2](Screenshot02.png "Screenshot 2")
