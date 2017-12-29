@@ -1,3 +1,8 @@
+## ! Deprecated !
+This theme won't work with the newer versions of Aseprite.
+If you are still looking for a flat dark theme, you might want to check out the [Minimal Dark Theme](https://2dchaos.itch.io/minimal-dark-aseprite-theme).
+
+
 # Aseprite DarkFlat Theme
 Aseprite is an open source pixel art tool. It allows you to create awesome pixel art and even animations easily. The given tools are especially made for pixel art. You can even create layers with transparency or export your animations as sprite sheets for game development.
 [For more info, checkout aseprite.org!](http://aseprite.org)
